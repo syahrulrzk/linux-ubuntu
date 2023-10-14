@@ -50,6 +50,20 @@ Anda dapat memverifikasi perubahan dengan mengetik:
 
 sudo ufw status
 
+  -----------------------
+Keluaran akan memberi daftar lalu lintas HTTP yang diizinkan:
+
+Output
+Status: active
+
+To                         Action      From
+--                         ------      ----
+OpenSSH                    ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                
+OpenSSH (v6)               ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)
+
+
 </pre>
 
 

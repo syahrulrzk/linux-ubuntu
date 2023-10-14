@@ -34,3 +34,13 @@ Available applications:
   OpenSSH
 </pre>
 
+Seperti yang ditunjukkan oleh keluaran, ada tiga profil yang tersedia untuk Apache:
+
+    - Apache: Profil ini hanya membuka porta 80 (lalu lintas web normal dan tidak terenkripsi)
+    - Apache Full: Profil ini membuka baik porta 80 (lalu lintas web normal dan tidak terenkripsi) serta porta 443 (lalu lintas terenkripsi TLS/SSL)
+    - Apache Secure: Profile ini hanya membuka porta 443 (lalu lintas terenkripsi TLS/SSL)
+
+Anda disarankan untuk mengaktifkan profil yang paling ketat yang masih akan mengizinkan lalu lintas yang telah Anda konfigurasikan. Karena kita belum mengonfigurasi SSL untuk server kita dalam panduan ini, kita hanya perlu mengizinkan lalu lintas pada porta 80:
+
+
+

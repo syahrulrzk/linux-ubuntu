@@ -24,4 +24,13 @@ Selama instalasi, Apache mendaftarkan dirinya dengan UFW untuk menyediakan beber
 Buat daftar profil aplikasi ufw dengan mengetik:
 <pre>
   sudo ufw app list
+
+  -----------
+  Output
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  OpenSSH
 </pre>
+

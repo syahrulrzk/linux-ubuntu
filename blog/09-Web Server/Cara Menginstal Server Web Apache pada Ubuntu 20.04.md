@@ -9,3 +9,7 @@ Mari kita mulai dengan memperbarui indeks paket lokal untuk mencerminkan perubah
 <pre>
 sudo apt update
 </pre>
+Lalu, instal paket apache2:
+<pre>
+  sudo apt install apache2
+</pre>

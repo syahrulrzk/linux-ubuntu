@@ -42,5 +42,15 @@ Seperti yang ditunjukkan oleh keluaran, ada tiga profil yang tersedia untuk Apac
 
 Anda disarankan untuk mengaktifkan profil yang paling ketat yang masih akan mengizinkan lalu lintas yang telah Anda konfigurasikan. Karena kita belum mengonfigurasi SSL untuk server kita dalam panduan ini, kita hanya perlu mengizinkan lalu lintas pada porta 80:
 
+<pre>
+sudo ufw allow 'Apache'
+
+  ----------------------
+Anda dapat memverifikasi perubahan dengan mengetik:
+
+sudo ufw status
+
+</pre>
+
 
 
